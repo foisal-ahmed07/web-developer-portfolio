@@ -23,6 +23,9 @@
 .dark-2{
     color: #474747;
 }
+.text--center{
+    text-align: center;
+}
 
 
 .section-title{
@@ -34,6 +37,8 @@
 .section-description{
     font-size: 18px;
     color:#757575 ;
+    padding: 20px;
+    
 }
 
 .btn-primary{
@@ -119,7 +124,7 @@ nav ul li a{
 .about{
     border-radius: 10px;
     padding: 130px 150px ;
-    margin-top: 130px;
+   
    text-align: center;
 
 }
@@ -137,6 +142,7 @@ nav ul li a{
     font-size: 20px;
     font-weight: bold;
     color: #181818;
+    
 }
 
 
@@ -147,4 +153,20 @@ main{
     max-width: 1140px;
     margin: 0 auto;
     
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* skills container section style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+skill{
+    border-radius: 5px;
+    padding: 30px; 
+    box-shadow: 0 6px 10px 0 #000000;
 }
