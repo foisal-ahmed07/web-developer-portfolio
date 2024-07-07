@@ -180,7 +180,9 @@ skill{
 /* resume-container style */
 
 
-
-#resume-container{
+.resume-column{
     display: flex;
+    gap: 20px;
+    padding: 30px;
+    
 }
