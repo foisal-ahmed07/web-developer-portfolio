@@ -313,3 +313,46 @@ skill{
 .footer-left-content .fb{
     margin-left: -5px;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, .footer-container{
+        flex-direction: column;
+    }
+    .footer-left-content{
+        margin-left:0 ;
+    }
+    .footer-right-content{
+        margin-left:0 ;
+    }
+    .comment-box input{
+        padding: 20px;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .about-items, .banner, nav ul, nav{
+        flex-direction:column ;
+    }
+    .banner-content, nav ul{
+        width: 100%;
+    }
+    .about{
+        margin: 20px;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .nav ul{
+        padding: 0;
+
+    }
+   
+}
+
