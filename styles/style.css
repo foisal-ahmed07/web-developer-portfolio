@@ -353,6 +353,9 @@ skill{
         padding: 0;
 
     }
+    .btn-primary, nav ul li{
+        margin-bottom: 10px;
+    }
    
 }
 
