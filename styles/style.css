@@ -261,6 +261,7 @@ skill{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
     
 
 }
@@ -314,12 +315,10 @@ skill{
     margin-left: -5px;
 }
 
-.hide{
-    display: none;
-}
+/* mobile responsive style */
 
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, .footer-container{
+    .skills-container, .resume-container, .footer-container, .dnld-btn{
         flex-direction: column;
     }
     .footer-left-content{
@@ -334,12 +333,16 @@ skill{
     .footer-container{
         width: 100%;
     }
+    .dnld-btn{
+        margin-left: 10px;
+    }
     
 }
 @media screen and (max-width: 576px){
     .about-items, .banner, nav ul, nav{
         flex-direction:column ;
     }
+    
     .banner-content, nav ul{
         width: 100%;
     }
